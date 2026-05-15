@@ -1,57 +1,76 @@
-# Pages placed under these sections will be shown on homepage and archive page.
-mainSections = ["post"]
-# Output page's full content in RSS.
-rssFullContent = true
-favicon        = "img/favicon.png"
+# -------------------------------------------------------------------
+# Hugo Theme Stack 完整配置文件 (中文优化版)
+# -------------------------------------------------------------------
 
-# Accepted values: "default", "lastmod"
-# default = see https://gohugo.io/quick-reference/glossary/#default-sort-order
-# lastmod = sort by last modified date, in descending order
-SortBy              = "default"
+# 首页和归档页面显示的内容类型
+mainSections = ["post"]
+# 在 RSS 中输出全文
+rssFullContent = true
+# 网站图标 (请确保文件存在于 static/img/favicon.png)
+favicon = "img/favicon.png"
+
+# 排序方式：默认按日期倒序
+SortBy = "default"
 
 [footer]
-    since      = 2020
-    customText = ""
+    since      = 2026
+    # 页面底部自定义文字，支持 HTML
+    customText = "Powered by Hugo & Stack"
 
 [dateFormat]
-    published   = ":date_full"
-    lastUpdated = ":date_full"
+    # 使用符合中文习惯的日期格式
+    published   = "2006-01-02"
+    lastUpdated = "2006-01-02 15:04"
 
 [sidebar]
-    emoji    = "🍥"
-    subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    emoji    = "💻"
+    subtitle = "专注于文化遗产保护与 Linux 技术探索"
+    # 头像路径 (对应 static/img/avatar.png)
     avatar   = "img/avatar.png"
 
 [article]
-    headingAnchor = false
+    # 是否在标题旁显示锚点
+    headingAnchor = true
+    # 开启数学公式支持 (KaTeX)
     math          = false
+    # 显示阅读时间
     readingTime   = true
+    # 文章摘要的行数
+    summaryLength = 100
 
     [article.license]
         enabled = true
-        default = "Licensed under CC BY-NC-SA 4.0"
+        default = "采用 CC BY-NC-SA 4.0 协议授权"
 
 [widgets]
+    # 首页显示的边栏组件
     homepage = [
         { type = "search" },
         { type = "archives", params = { limit = 5 } },
         { type = "categories", params = { limit = 10 } },
-        { type = "tag-cloud", params = { limit = 10 } },
+        { type = "tag-cloud", params = { limit = 15 } },
     ]
+    # 文章页显示的边栏组件 (通常只显示目录)
     page = [{ type = "toc" }]
 
-[opengraph.twitter]
-    site = ""
-    card = "summary_large_image"
-
 [colorScheme]
+    # 开启深色/浅色模式切换按钮
     toggle  = true
+    # 模式设定：auto (跟随系统), light, dark
     default = "auto"
 
-## Comments
 [comments]
-    enabled  = true
+    # 评论系统开关
+    enabled  = false
     provider = "disqus"
 
-    # See all the available configurations at https://github.com/CaiJimmy/hugo-theme-stack/blob/master/config/_default/params.toml
-    # Copy the configurations you need from there and paste it here.
+# -------------------------------------------------------------------
+# 进阶功能 (如果你需要)
+# -------------------------------------------------------------------
+
+[photos]
+    # 开启相册功能 (如果在文章 Front Matter 中设置了 photos)
+    enabled = true
+
+[menu]
+    # 如果你想在侧边栏显示特定的链接，也可以在这里定义

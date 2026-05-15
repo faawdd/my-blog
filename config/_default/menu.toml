@@ -1,24 +1,45 @@
-# Configure main menu and social menu
-#[[main]]
-#identifier = "home"
-#name = "Home"
-#url = "/"
-#[main.params]
-#icon = "home"
-#newtab = true
+# 侧边栏主菜单
+[[main]]
+    identifier = "home"
+    name       = "首页"
+    url        = "/"
+    [main.params]
+        icon = "home"
+
+[[main]]
+    identifier = "archives"
+    name       = "归档"
+    url        = "/archives/"
+    [main.params]
+        icon = "archives"
+
+[[main]]
+    identifier = "search"
+    name       = "搜索"
+    url        = "/search/"
+    [main.params]
+        icon = "search"
+
+[[main]]
+    identifier = "about"
+    name       = "关于"
+    url        = "/about/"
+    [main.params]
+        icon = "user"
 
 [[social]]
     identifier = "github"
     name       = "GitHub"
-    url        = "https://github.com/CaiJimmy/hugo-theme-stack"
+    url        = "https://github.com/faawdd" # 记得改成你的
 
     [social.params]
         icon = "brand-github"
 
+# 如果你不用 Twitter，可以把下面这段删掉或者换成别的
 [[social]]
-    identifier = "twitter"
-    name       = "Twitter"
-    url        = "https://twitter.com"
+    identifier = "rss"
+    name       = "RSS"
+    url        = "/index.xml"
 
     [social.params]
-        icon = "brand-twitter"
+        icon = "rss"

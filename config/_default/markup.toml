@@ -2,6 +2,9 @@
 [goldmark.renderer]
     unsafe = true
 
+[goldmark.extensions]
+    footnote = true
+
 [goldmark.extensions.passthrough]
     enable = true
 
