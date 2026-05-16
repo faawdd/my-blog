@@ -24,7 +24,7 @@ SortBy = "default"
 
 [sidebar]
     emoji    = "💻"
-    subtitle = "专注于文化遗产保护与 Linux 技术探索"
+    subtitle = "即使天无雨，我亦在此地"
     # 头像路径 (对应 static/img/avatar.png)
     avatar   = "img/my.jpg"
 
