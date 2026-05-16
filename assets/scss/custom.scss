@@ -5,6 +5,8 @@
 
 /* 1. 从 USTC 镜像异步加载思源宋体 - 包含 400 和 700 字重 */
 @import url('https://fonts.mirrors.ustc.edu.cn/css2?family=Noto+Serif+SC:wght@400;700&display=swap');
+/* 1.1 从 USTC 镜像异步加载思源黑体 - 用于各级标题 */
+@import url('https://fonts.mirrors.ustc.edu.cn/css2?family=Noto+Sans+SC:wght@500;700&display=swap');
 
 /* 2. 覆盖主题全局字体变量 - 智能降级方案 */
 :root {
@@ -51,6 +53,14 @@ article h6,
 .article-content h4,
 .article-content h5,
 .article-content h6 {
+  /* 标题统一使用无衬线黑体，优先思源黑体与系统常见中文黑体 */
+  font-family: 'Noto Sans SC',
+               'PingFang SC',
+               'Hiragino Sans GB',
+               'Microsoft YaHei',
+               'Source Han Sans SC',
+               'WenQuanYi Micro Hei',
+               sans-serif;
   font-weight: 700;
   /* 标题字距略微收紧，提升视觉张力 */
   letter-spacing: -0.01em;
@@ -72,13 +82,20 @@ article code,
 article pre,
 .article-content code,
 .article-content pre {
-  font-family: 'Fira Code', 'Monaco', 'Courier New', monospace;
+  font-family: 'SFMono-Regular',
+               'Menlo',
+               'Monaco',
+               'Consolas',
+               'Liberation Mono',
+               'Courier New',
+               monospace;
 }
 
 /* ================================================================
    说明：
    • 使用 display=swap 参数，确保字体加载期间显示系统备用字体
    • USTC 镜像链接：https://fonts.mirrors.ustc.edu.cn
-   • 完整的降级链：思源宋体 → 苹果宋体 → Windows宋体 → 衬线体
+  • 标题降级链：思源黑体 → 苹方 → 微软雅黑 → 常见中文黑体 → 无衬线体
+  • 正文降级链：思源宋体 → 苹果宋体 → Windows宋体 → 衬线体
    • 在 Hugo 配置中，无需额外配置即可生效（assets/scss/custom.scss 自动导入）
    ================================================================ */
