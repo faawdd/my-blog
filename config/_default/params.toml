@@ -26,7 +26,7 @@ SortBy = "default"
     emoji    = "💻"
     subtitle = "即使天无雨，我亦在此地"
     # 头像路径 (对应 static/img/avatar.png)
-    avatar   = "img/my.jpg"
+    avatar   = "/img/my.jpg"
 
 [article]
     # 是否在标题旁显示锚点
