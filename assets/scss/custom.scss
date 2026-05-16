@@ -1,3 +1,84 @@
-/*
-    You can add your own custom styles here.
-*/
+/* ================================================================
+   自定义样式：思源宋体 (Noto Serif SC) 国内镜像配置
+   使用 USTC 开源镜像加速，确保国内网络秒开
+   ================================================================ */
+
+/* 1. 从 USTC 镜像异步加载思源宋体 - 包含 400 和 700 字重 */
+@import url('https://fonts.mirrors.ustc.edu.cn/css2?family=Noto+Serif+SC:wght@400;700&display=swap');
+
+/* 2. 覆盖主题全局字体变量 - 智能降级方案 */
+:root {
+  /* 优先使用网络引入的思源宋体，逐级降级至系统字体 */
+  --base-font-family: 'Noto Serif SC', 
+                      'Songti SC', 
+                      'STSongti-SC-Regular',
+                      'SimSun', 
+                      '宋体',
+                      serif;
+}
+
+/* 3. 优化正文排版 - 针对文章内容的细致调整 */
+article,
+.article-content {
+  /* 增加行高，提升衬线体的阅读舒适度 */
+  line-height: 1.78;
+  
+  /* 微调字距，改善视觉均衡 */
+  letter-spacing: 0.02em;
+  
+  /* 字体渲染优化 - 在高分屏/低分屏上都清晰锐利 */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'kern' 1;
+}
+
+/* 4. 段落优化 - 正文段落的间距调整 */
+article p,
+.article-content p {
+  margin-bottom: 1.2em;
+}
+
+/* 5. 标题样式微调 - 保持思源宋体风格 */
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6,
+.article-content h1,
+.article-content h2,
+.article-content h3,
+.article-content h4,
+.article-content h5,
+.article-content h6 {
+  font-weight: 700;
+  /* 标题字距略微收紧，提升视觉张力 */
+  letter-spacing: -0.01em;
+}
+
+/* 6. 引用块样式优化 */
+article blockquote,
+.article-content blockquote {
+  border-left: 4px solid var(--primary-color);
+  padding-left: 1em;
+  margin-left: 0;
+  color: var(--body-text-color);
+  font-style: italic;
+  opacity: 0.9;
+}
+
+/* 7. 代码块 - 保持等宽字体 */
+article code,
+article pre,
+.article-content code,
+.article-content pre {
+  font-family: 'Fira Code', 'Monaco', 'Courier New', monospace;
+}
+
+/* ================================================================
+   说明：
+   • 使用 display=swap 参数，确保字体加载期间显示系统备用字体
+   • USTC 镜像链接：https://fonts.mirrors.ustc.edu.cn
+   • 完整的降级链：思源宋体 → 苹果宋体 → Windows宋体 → 衬线体
+   • 在 Hugo 配置中，无需额外配置即可生效（assets/scss/custom.scss 自动导入）
+   ================================================================ */
