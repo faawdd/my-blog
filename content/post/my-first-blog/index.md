@@ -2,7 +2,7 @@
 title: "中国青少年群体打架斗殴现象的历史演变与社会学归因深度分析报告"
 date: 2026-05-05T20:38:50+08:00
 tags: []
-categories: []
+categories: ["研究"]
 draft: false
 ---
 
