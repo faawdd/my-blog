@@ -1,8 +1,7 @@
 ---
 title: "研究"
-description: "通过墨筑博客客户端自动创建的分类描述"
+description: "社会现象、历史与学术深度分析类内容"
 image: ""
 style:
-    background: "#7b6d8d"
+    background: "#4361ee"
     color: "#fff"
----
