@@ -3,7 +3,7 @@
 # -------------------------------------------------------------------
 
 # 首页和归档页面显示的内容类型
-mainSections = ["post"]
+mainSections = ["post", "posts"]
 # 在 RSS 中输出全文
 rssFullContent = true
 # 网站图标 (请确保文件存在于 static/img/favicon.png)
