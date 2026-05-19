@@ -1,12 +1,19 @@
 ---
-title: "中国青少年群体打架斗殴现象的历史演变与社会学归因深度分析报告"
+title: "从古惑仔到游戏玩家"
+description: 
 date: 2026-05-05T20:38:50+08:00
+image: 
+math: 
+license: 
+comments: true
 tags: []
 categories: ["研究"]
 draft: false
+build:
+    list: always    # Change to "never" to hide the page from the list
 ---
 
-# 中国青少年群体打架斗殴现象的历史演变与社会学归因深度分析报告
+# 从古惑仔到游戏玩家：中国青少年群体打架斗殴现象的历史演变与社会学归因深度分析报告
 
 ## 引言：社会转型期青少年越轨行为的现象学重构
 
