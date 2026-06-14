@@ -6,11 +6,13 @@ image:
 math: 
 license: 
 comments: true
+tags: []
 categories: ["技术"]
 draft: false
 build:
     list: always    # Change to "never" to hide the page from the list
 ---
+
 # **从零打造基层文物管理系统与 App：Django + FastAPI 双引擎与空间计算实战**
 
 ## **引言**
@@ -514,4 +516,3 @@ FastAPI/Django校验
 欢迎交流讨论。
 
 **标签：#Django #FastAPI #UniApp #GIS #空间计算 #文物保护 #第四次全国文物普查 #数字政府 #基层治理 #开源项目**
-
