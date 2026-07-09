@@ -13,7 +13,7 @@ build:
     list: always    # Change to "never" to hide the page from the list
 ---
 
-![4.jpg](https://img9.doubanio.com/view/photo/l/public/p1419780564.webphttps://img9.doubanio.com/view/photo/l/public/p1419780564.webp)
+![命运石之门（动漫/精英版）](https://img9.doubanio.com/view/photo/l/public/p1419780564.webp)
 ## 观测者的圣经：从《命运石之门》看冰冷宇宙中的人类执念
 
 在科幻作品的浩瀚星空里，关于“时空穿越”的畅想从未止息。多数作品喜欢赋予主角神明般的伟力，让他们在时间轴上纵横捭阖。然而，2009年诞生的硬核科幻神作《命运石之门》（Steins;Gate），却选择了一条全然相反、甚至有些绝望的路径：**它用最严密的物理学假说搭建了一个冰冷的因果囚笼，然后把一个血肉之躯的凡人扔了进去。**
