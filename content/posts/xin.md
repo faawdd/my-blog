@@ -2,7 +2,7 @@
 title: "观测者的圣经：从《命运石之门》看冰冷宇宙中的人类执念"
 description: 
 date: 2026-07-10T01:13:23+08:00
-image: 
+image: "https://img9.doubanio.com/view/photo/l/public/p1419780564.webp"
 math: 
 license: 
 comments: true
