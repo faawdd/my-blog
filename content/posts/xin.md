@@ -15,7 +15,7 @@ build:
 
 ![命运石之门主要人物(动漫/精英版)](https://i.ibb.co/nM4mvxDR/Gemini-Generated-Image-vda2r9vda2r9vda2.png)
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" style="width: 100%; max-width: 330px;" height="86" src="https://music.163.com/outchain/player?type=2&id=22722861&auto=0&height=66"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="//music.163.com/outchain/player?type=2&id=22722861&auto=0&height=32"></iframe>
 
 # 《命运石之门》：那个永无止境的夏天，与跨越时空的执念
 
