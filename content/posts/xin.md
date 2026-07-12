@@ -13,7 +13,7 @@ build:
     list: always    # Change to "never" to hide the page from the list
 ---
 
-![命运石之门主要人物（动漫/精英版）](https://picui.ogmua.cn/s1/2026/07/12/6a53b5fd6cd04.webp)
+![命运石之门主要人物(动漫/精英版)](https://i.ibb.co/nM4mvxDR/Gemini-Generated-Image-vda2r9vda2r9vda2.png)
 
 # 《命运石之门》：那个永无止境的夏天，与跨越时空的执念
 
